@@ -1,7 +1,22 @@
-{
-  "node": "--version",
-  "npm": "--version",
-  "git": "--version",
-  "brew": "--version",
-  "noExist": "--version"
-}
+[
+  {
+    "tool": "node",
+    "argument": "--version"
+  },
+  {
+    "tool": "npm",
+    "argument": "--version"
+  },
+  {
+    "tool": "git",
+    "argument": "--version"
+  },
+  {
+    "tool": "brew",
+    "argument": "--version"
+  },
+  {
+    "tool": "zsh",
+    "argument": "--version"
+  }
+]
