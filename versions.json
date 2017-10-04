@@ -1,0 +1,7 @@
+{
+  "node": "--version",
+  "npm": "--version",
+  "git": "--version",
+  "brew": "--version",
+  "noExist": "--version"
+}
