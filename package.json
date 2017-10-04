@@ -1,6 +1,6 @@
 {
   "name": "verita",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Quick versions for everything.",
   "author": {
     "name": "Stefan Aichholzer",
@@ -24,7 +24,7 @@
   "main": "./lib/wendy.js",
   "bin": "./lib/cli.js",
   "scripts": {
-    "test": "eslint . && mocha -R spec -t 5000"
+    "test": "eslint ."
   },
   "directories": {
     "test": "test"

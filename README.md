@@ -4,6 +4,6 @@
 `WIP`
 
 ```
-> npm i -g verita
-> verita
+npm i -g verita
+verita
 ```
