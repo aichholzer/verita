@@ -1,11 +1,11 @@
 {
-  "name": "versions",
+  "name": "verita",
   "version": "1.0.0",
   "description": "Quick versions for everything.",
   "author": {
     "name": "Stefan Aichholzer",
     "email": "stefan@doshii.io",
-    "url": "https://github.com/aichholzer/versions.git"
+    "url": "https://github.com/aichholzer/verita.git"
   },
   "engines": {
     "node": ">=8.4"
@@ -21,12 +21,20 @@
     "mocha": "^4.0.0",
     "should": "^13.1.0"
   },
-  "main": "./lib/versions.js",
+  "main": "./lib/wendy.js",
   "bin": "./lib/cli.js",
   "scripts": {
     "test": "eslint . && mocha -R spec -t 5000"
   },
   "directories": {
     "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:aichholzer/verita.git"
+  },
+  "_npmUser": {
+    "name": "aichholzer",
+    "email": "theaichholzer@gmail.com"
   }
 }
